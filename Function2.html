@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var num = 0;
+        function add (){
+            num++;
+            mostrar(num);
+        }
+        function sub(){
+                num--;
+                mostrar(num);
+            }
+            function mostrar(valor) {
+                document.getElementById("resultado").innerHTML = valor;
+            }
+    </script>
+</head>
+<body>
+    <h2>programa javascript de incremento e decremento</h2>
+    <button onclick=add()>somar</button>
+    <button onclick=sub()>subtrair</button>
+    <button onclick=document.write(valor)>mostrar na tela</button>   
+    <p id="resultado"></p> 
+</body>
+</html>
