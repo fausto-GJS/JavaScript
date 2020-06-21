@@ -1,0 +1,34 @@
+#login
+{
+    margin-top: 300px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background: brown;
+    text-align: center;
+    border-radius: 10%;
+}
+#jogo
+{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    background: brown;
+    text-align: center;
+    margin-top: 90px;
+    border-radius: 10%;
+}
+#dadoPlayer1,#dadoPlayer2
+{
+    border-radius: 10%;
+}
+body
+{
+    background-image: url("dice-169063.gif");
+    font-weight: bolder;
+}
+label,p
+{
+color: blanchedalmond;
+font-size: large;
+}

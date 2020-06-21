@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jogoDeDados.css">
+    <title>Jogo de Dados</title>
+</head>
+
+<body>
+    <div id="jogoDeDados">
+        <div id="login">
+            <label>Player 1 </label>
+            <input type="text" value="" placeholder="Digite o nome " id="player1">
+            <label>Player 2</label>
+            <input type="text" value="" placeholder="Digite o nome " id="player2">
+            <input type="button" value="Iniciar" onclick="iniciar()" >
+        </div>
+        <div id="jogo" hidden="true">
+           <label>Player 1:</label><p id="nomePlayer1"></p><label>Pontuação: <p id="pontoPlayer1">10 pontos</p>
+                </label><hr>
+                <label>Player 2:</label><p id="nomePlayer2"></p><label>Pontuação: <p id="pontoPlayer2">10 pontos</p>
+                </label><hr>
+            <img src="dado0.png" id="dadoPlayer1">
+            <img src="dado0.png" id="dadoPlayer2"><br>
+            <input type="button" value="Jogar" onclick="jogar()" id="jogar">
+            <input type="button" value="Reiniciar jogo" onclick="reset()">
+            <p id="resultado"></p>
+            
+        </div>
+
+        <script src="jogoDeDados.js"></script>
+
+    </div>
+</body>
+
+</html>
